@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins','san-serif';
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom, #ffa585, #45c5d8);
+    color: #fff;
+    font-weight: 600;
+}
+.container{
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px #909090,8px 8px 0px #575757;
+}
+.inputbox{
+    position: relative;
+}
+.inputbox span{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: black;
+    z-index: 2;
+    font-size: 28px;
+    cursor: pointer;
+}
+.container h1{
+    font-size: 1.4*rem;
+    margin-block: 8px;
+}
+.container .passbox{
+    background-color: white;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-block:8px;
+    padding: 10px;
+    font-size:20px;
+    border-radius: 4px;
+}
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+.row p, .row label{
+    flex-basis: 100%;
+}
+.row input[type="checkbox"]{
+      width: 20px;
+      height: 20px;
+}
+.buttondiv{
+    margin-bottom: 35px;
+    position: relative;
+}
+.button{
+ border: none;
+ padding: 8px;
+ border-radius: 5px;
+ font-size: 18px;
+ margin-block: 8px;
+ background-color: #2c619e;
+ color: white;
+ top:0;
+ left: 0;
+ position: absolute;
+ width: 100%;
+ cursor: pointer;
+}
+
+.button:hover{
+    background-color: #0066ff;
+}
